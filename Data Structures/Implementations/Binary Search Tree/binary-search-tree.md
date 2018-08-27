@@ -2,12 +2,14 @@ Trees cans be a useful structure for a middle ground between LinkedLists and Arr
 
 
 Current Tree:
+`
       10
     /   \
   5      15
  / \     /
 3   8   12
 
+`
 -> .add is called with 7
 -> start at root (10)
 -> lesser than 10, go left to 5

@@ -6,13 +6,14 @@ LinkedLists have their ups and downs. On one hand, adding and removing is a bree
 
 Let's dissect a delete.
 
-value: [a][b] [c][d]
-next: [ ]-> [ ]-> [ ]-> [ ]-> null
+
+value: [a]   [b]   [c]   [d]
+next:  [ ]-> [ ]-> [ ]-> [ ]-> null
 
 -> delete is called on index 2 (value 'c')
 -> grab the head (value 'a')
 -> loop through the nexts until you get the index
-before the one to be deleted (value 'b')
+   before the one to be deleted (value 'b')
 -> change the the next of index 1 to be the next of index 2
 -> decrement length
 -> return the value of the deleted node
